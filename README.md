@@ -9,7 +9,7 @@
 * No Database
 
 ## Starting the App
-Start application open view folder and Run index.html 
+Start application run index.html 
 
   
 
