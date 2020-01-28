@@ -1,0 +1,9 @@
+#main-div1 {
+    text-align: center;
+    padding: 150px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.fa-check-circle {
+    color: rgb(59, 252, 10);
+    font-weight: 200;
+}

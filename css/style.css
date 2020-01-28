@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+#top-bar{
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(88, 88, 88, 0.2);
+    z-index: 1;
+
+}
+#logo{
+    padding: 15px 30px 15px 70px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+ 
+#logo-1{
+    font-weight: 800;
+}
+.menu-item{
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+ 
+#top-bar i{
+    color: black;
+}
+ 
+#search-box{
+    display: flex;
+    width: 380px;
+    align-items: center;
+    margin: 0 200px;
+    border-radius: 3px;
+    background-color: rgb(153, 151, 151, 0.1);
+   
+}
+#search {
+    width: 380px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(153, 151, 151, 0.03);
+}
+ 
+#search-box > i{
+    padding-left: 5%;
+    color: rgba(88, 88, 88, 0.5);
+    
+}
+ 
+#top-bar > img{
+    width: 3%;
+    margin-left: 2%;
+    border-radius: 50%;
+}
+#cart-logo{
+    margin-left: -6%;
+}
+
+ #wrapper{
+    width: 1170px; 
+    margin: 0 auto; 
+    padding-top: 85px;
+}
+ div img{
+  width: 100%; 
+}
+
+#footer{
+    width:100%;
+    height: 80%;
+    margin-top: 100px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    transition: .5s;
+
+}
+#list-menu{
+   display: flex;
+   position: relative;
+   padding-top: 50px;
+   justify-content: center;
+  
+}
+ ul li{
+    list-style: none;
+    padding: 10px 50px 0 50px; 
+    color: lightgrey;
+ }
+.list-item{
+    font-size: 20px;
+    color: white;
+}
+#pluse-logo{
+    padding: 8px;
+    font-size: 12px;
+    margin-left: -12px;
+}
+#number-of-items{
+    border-radius: 50%;
+    background-color: rgb(11, 163, 163);
+    width: 21px;
+    height: 20px;
+    position: absolute;
+    top: 11px;
+    right: 120px;
+    color: white;
+    text-align: center;
+}
+.clothing-section{
+    padding-top: 90px;
+    margin: 0 0 0 80px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.accessories-section{
+    margin: 0 0 0 80px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#product-grid{
+    display: flex;
+    margin: 0 0 0 70px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.product{
+    width: 100px;
+    height: 250px;
+    margin: 16px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    
+}
+.menu-item{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+}
+#main-div {
+    width: 100%;
+    padding: 4% 8% 0 8%;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.product-card{
+    margin: 8px;
+    box-shadow: 1px 1px 4px grey;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+}
+.product-img{
+    width: 100%;
+}
+.title{
+    padding-left: 5px;
+}
+.product-brand{
+    padding-left: 5px;
+}
+.product-price{
+    padding-left: 5px;
+    color: rgb(6, 156, 156);
+    font:bold;
+    font-family: 'Varela Round', sans-serif;
+}
+.product-card:hover{
+    transform: scale(1.1 ,1.1);
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+html{
+    scroll-behavior:smooth;
+}
