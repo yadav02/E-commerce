@@ -75,7 +75,7 @@ localStorage.setItem("cart", cartItems.innerHTML);
 var clothSection = document.getElementById('cloth-section');
 var accessorySection = document.getElementById('accessory-section');
 
-var api = 'http://5d76bf96515d1a0014085cf9.mockapi.io/product';
+var api = 'https://5d76bf96515d1a0014085cf9.mockapi.io/product';
 var xhttp = new XMLHttpRequest();
 xhttp.open('Get', api , true);
 xhttp.onreadystatechange = function() {
